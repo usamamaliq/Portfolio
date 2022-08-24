@@ -1,0 +1,85 @@
+body {
+  /* position: relative; */
+  background: #fff;
+  margin: auto;
+  border: auto;
+}
+
+.bg {
+  background-image: url("./Images/background/bg.svg");
+  height: 648px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Inter", sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 14%;
+}
+
+.up {
+  color: #172b4d;
+}
+
+.down {
+  color: #089744;
+}
+
+header {
+  display: flex;
+  margin: 5%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  font-family: "Inter", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#menu {
+  justify-content: flex-end;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  /* font-family: 'Inter'; */
+  font-family: "Inter", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  color: #172b4d;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 10%;
+}

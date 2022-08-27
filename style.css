@@ -99,9 +99,11 @@ a:active {
 }
 
 .recent-work {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 97px 4px 474px 474px 474px 474px 474px;
+  justify-content: center;
+  place-items: center;
+  row-gap: 24px;
 }
 
 .recent-work-title {
@@ -111,13 +113,38 @@ a:active {
   line-height: 52px;
   color: #172b4d;
   margin-bottom: 0%;
+  grid-row: 1/2;
 }
 
-#section-2-green-title-line {
+.section-2-green-title-line {
   margin-top: 5%;
+  grid-row: 2/3;
+  place-items: center;
+}
+
+.w1 {
+  grid-row: 3/4;
+}
+
+.w2 {
+  grid-row: 4/5;
+}
+
+.w3 {
+  grid-row: 5/6;
+}
+
+.w4 {
+  grid-row: 6/7;
+}
+
+.w5 {
+  grid-row: 7/8;
 }
 
 .work-1-container {
+  display: flex;
+  flex-direction: column;
   width: 327px;
   height: 474px;
   border: 1px solid #d0d9d4;
@@ -129,6 +156,7 @@ a:active {
 .project-image {
   width: 100%;
   height: 252px;
+  justify-content: flex-start;
 }
 
 .work-bottom-cont {
@@ -138,6 +166,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
+  justify-content: flex-end;
 }
 
 .project-title {
@@ -183,8 +212,12 @@ a:active {
   bottom: 8px;
   background: #36b37f;
   border-radius: 4px;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   border: 0;
+}
+
+.project-button:hover {
+  background-color: #3e8e41;
 }
 
 .about-me {
@@ -192,6 +225,9 @@ a:active {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-image: url("./Images/about-me-mobile.svg");
+  background-repeat: no-repeat;
+  margin-top: 64px;
 }
 
 .about-heading {
@@ -234,6 +270,10 @@ a:active {
   margin-bottom: 59px;
 }
 
+.resume-button:hover {
+  background-color: #3e8e41;
+}
+
 .placard {
   display: flex;
   flex-direction: column;
@@ -273,7 +313,7 @@ a:active {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
   font-weight: 600;
   font-size: 12px;

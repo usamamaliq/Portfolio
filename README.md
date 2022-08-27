@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is a Mobile first Portfolio project for first two sections of Microvere Figma template 3
+> This is the 2nd part of mobile portfolio of microverse project for week 1. In this project header, main page, work section and about info has been implemented.
 
 ## Built With
 
@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-**A day 3 project of mobile first approach for a figma template
+**A day 4 project of mobile first approach for a figma template
 
 
 To get a local copy up and running follow these simple example steps.
@@ -26,7 +26,8 @@ HTML & CSS
 
 ### Setup
 
-You should have a code editor 
+Download the zip file for repository and unzip it.
+You should have a code editor
 
 ### Install
 

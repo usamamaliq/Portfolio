@@ -217,7 +217,11 @@ a:active {
 }
 
 .project-button:hover {
-  background-color: #3e8e41;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.project-button:active {
+  background-color: #008552;
 }
 
 .about-me {
@@ -271,7 +275,11 @@ a:active {
 }
 
 .resume-button:hover {
-  background-color: #3e8e41;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.resume-button:active {
+  background-color: #008552;
 }
 
 .placard {

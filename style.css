@@ -321,10 +321,10 @@ a:active {
 }
 
 .placard-tags {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: float;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
   list-style: none;
   font-weight: 600;
   font-size: 12px;
@@ -336,11 +336,23 @@ a:active {
 }
 
 .tag {
+  float: left;
   background: #fff;
   padding: 12px;
   border-radius: 8px;
   margin: 8px;
+
 }
+
+.tag-one {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 8px;
+  float: left;
+}
+
+
 
 .end-text {
   font-weight: 700;

@@ -351,13 +351,35 @@ a:active {
 .form {
   display: flex;
   flex-direction: column;
-  border: 1px solid #D0D9D4;
-  width: 327px;
+  align-items: center;
+  
+}
+.forma {
+  background: #fff;
+/* Theme 2 / Neutral 9 */
+width: 327px;
+height: 48px;
+
+border: 1px solid #d0d9d4;
+border-radius: 4px;
+margin-bottom: 24px;
+padding-left: 16px;
 }
 
-#f-button {
-  width: 105px;
-  height: 24px;
+.f-message {
+  width: 327px;
+  height: 114px;
+  background: #FFFFFF;
+/* Theme 2 / Primary 3 */
+
+border: 1px solid #60C095;
+border-radius: 4px;
+margin-bottom: 24px;
+padding-left: 16px;
+padding-top: 12px;
+}
+
+.f-button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -365,5 +387,37 @@ a:active {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffff;
-  background-color: #36b37f;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  margin-bottom: 46px;
+}
+
+.f-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.f-button:active {
+  background-color: #008552;
+  
+}
+
+.footer-email {
+  width: 375px;
+  height: 189px;
+  
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
 }

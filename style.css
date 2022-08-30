@@ -348,12 +348,14 @@ a:active {
   margin: 24px;
 }
 
+
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   
 }
+
 .forma {
   background: #fff;
 /* Theme 2 / Neutral 9 */
@@ -420,4 +422,10 @@ padding-top: 12px;
   line-height: 32px;
   text-align: center;
   color: #42526e;
+}
+
+.footer {
+  background-image: url(Images/footer.png);
+  background-repeat: no-repeat;
+  background-position: 509px 303px;
 }

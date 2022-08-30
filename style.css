@@ -347,3 +347,84 @@ a:active {
   color: #172b4d;
   margin: 24px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.forma {
+  background: #fff;
+  width: 327px;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding-left: 16px;
+  color: #6b778c;
+  margin-bottom: 24px;
+}
+
+.f-message {
+  width: 327px;
+  height: 114px;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-top: 12px;
+  color: #091e42;
+}
+
+.f-button {
+  border: 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  margin-bottom: 46px;
+}
+
+.f-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.f-button:active {
+  background-color: #008552;
+}
+
+.email {
+  text-align: center;
+  margin-left: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  margin-bottom: 200px;
+  margin-top: 0;
+}
+
+.footer {
+  background-image: url(Images/footer.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  margin-bottom: 10px;
+}

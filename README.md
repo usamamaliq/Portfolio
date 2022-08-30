@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is the 2nd part of mobile portfolio of microverse project for week 1. In this project header, main page, work section and about info has been implemented.
+> This is the final version of mobile portfolio of microverse project for Week 2. In this project header, main page, work section, about info and form section has been implemented.
 
 ## Built With
 
@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-**A day 4 project of mobile first approach for a figma template
+**A week 2 project of mobile first approach for figma template 3
 
 
 To get a local copy up and running follow these simple example steps.
@@ -68,7 +68,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse 2nd Day Project
+- Microverse Portfolio Project
 
 ## 📝 License
 

@@ -348,47 +348,45 @@ a:active {
   margin: 24px;
 }
 
-
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin-top: 24px;
 }
 
 .forma {
   background: #fff;
-/* Theme 2 / Neutral 9 */
-width: 327px;
-height: 48px;
-
-border: 1px solid #d0d9d4;
-border-radius: 4px;
-margin-bottom: 24px;
-padding-left: 16px;
+  width: 327px;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding-left: 16px;
+  color: #6b778c;
+  margin-bottom: 24px;
 }
 
 .f-message {
   width: 327px;
   height: 114px;
-  background: #FFFFFF;
-/* Theme 2 / Primary 3 */
-
-border: 1px solid #60C095;
-border-radius: 4px;
-margin-bottom: 24px;
-padding-left: 16px;
-padding-top: 12px;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-top: 12px;
+  color: #091e42;
 }
 
 .f-button {
+  border: 0;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffff;
+  color: #fff;
   padding: 12px;
   gap: 10px;
   width: 129px;
@@ -404,28 +402,29 @@ padding-top: 12px;
 
 .f-button:active {
   background-color: #008552;
-  
 }
 
-.footer-email {
-  width: 375px;
-  height: 189px;
-  
-}
 .email {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-left: 0px;
+  text-align: center;
+  margin-left: 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  text-align: center;
   color: #42526e;
+  margin-bottom: 200px;
+  margin-top: 0;
 }
 
 .footer {
   background-image: url(Images/footer.png);
   background-repeat: no-repeat;
-  background-position: 509px 303px;
+  background-position: right bottom;
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  margin-bottom: 10px;
 }

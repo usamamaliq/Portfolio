@@ -347,3 +347,23 @@ a:active {
   color: #172b4d;
   margin: 24px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #D0D9D4;
+  width: 327px;
+}
+
+#f-button {
+  width: 105px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffff;
+  background-color: #36b37f;
+}

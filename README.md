@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is the final version of mobile portfolio of microverse project for Week 2. In this project header, main page, work section, about info and form section has been implemented.
+> In this project Mobile Version and Desktop version has been created for Figma template 3 of portfolio project . Main pages were made for both these projects
 
 ## Built With
 
@@ -15,7 +15,7 @@
 
 ## Getting Started
 
-**A week 2 project of mobile first approach for figma template 3
+**A week 2 project of mobile version and desktop version of Figma template 3 for portfolio project.
 
 
 To get a local copy up and running follow these simple example steps.

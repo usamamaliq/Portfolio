@@ -8,21 +8,29 @@
   <title>Portfolio</title>
 </head>
 <body>
-  <header>
+<section class="bg">
+  <header class="mobile-menu">
     <a href="#" class="logo">Welcome</a>
       <Nav id="menu">
       <img src="./Images/icon-menu.png" alt="Menu Icon">
       </Nav>
   </header>
-<section class="bg">
-  <h1 class="hero up">Hey there. I’m <br>Usama</h1>
-  <h1 class="hero down">I'm a software<br>developer</h1>
+  <nav class="desktop-menu">
+    <ul class="menu">
+      <li class="menu-item"><a href="#">Portfolio</a></li>
+      <li class="menu-item"><a href="#">About</a></li>
+      <li class="menu-item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="headline">
+  <h1 class="hero up">Hey there. I’m Usama</h1>
+  <h1 class="hero down">I'm a software developer</h1>
   <p class="intro">
      I can help you build a product ,
-     <br>feature or website Look through
-     <br>some of my work and experience!
-     <br>If you like what you see and have
-     <br>a project you need coded,
+     feature or website Look through
+     some of my work and experience!
+     If you like what you see and have
+     a project you need coded,
      <br>don’t hestiate to contact me.
   </p>
     <ul class="social-media">
@@ -40,10 +48,13 @@
       <li><a href="#"><img src="./Images/down-btn.svg" alt="Link to scroll down"></a>
       </li>
     </ul>
+  </div>
 </section>
 <!-- Recent Work Section -->
 <section class="recent-work">
   <h2 class="recent-work-title">My Recent<br>Works
+  </h2>
+  <h2 class="recent-work-title-desktop">My Recent Works
   </h2>
   <img class="section-2-green-title-line" src="./Images/section-2-green-title-line.svg" alt="Green line">
 <!-- Section 2 starting for project -->
@@ -124,7 +135,23 @@
     <button class="project-button">See Project</button>
     </div>
   </div>
+  
   </div>
+  <div class="work-1-container w6">
+    <img class="project-image" src="./Images/img-work.svg" alt="project picture">
+    <div class="work-bottom-cont">
+      <h2 class="project-title">Multi-Post Stories<br>Gain+Glory</h2>
+      <ul class="Language-tags">
+         <li class="lang-tag">Ruby on rails</li>
+         <li class="lang-tag">css</li>
+         <li class="lang-tag">JavScript</li>
+         <li class="lang-tag">html</li>
+      </ul>
+      <div class="button">
+         <button class="project-button">See Project</button>
+    </div>
+    </div>
+</div>
 
 </section>
 <!-- About me section start -->
@@ -133,10 +160,10 @@
         <h2 class="about-heading">About me</h2>
     </div>
   <p class="about-me-para"> I can help you build a product ,
-    <br>feature or website Look through
-    <br>some of my work and experience! If
-    <br>you like what you see and have a
-    <br>project you need coded,
+    feature or website Look through
+    some of my work and experience! If
+    you like what you see and have a
+    project you need coded,
     <br>don’t hestiate to contact me.</p>
     <div class="resume-butto-cont">
       <button class="resume-button">Get my Resume</button>
@@ -177,35 +204,40 @@
     </ul>
     </div>
 </section>
+<div class="background-images-footer">
+<div class="footer-desktop">
 <section class="en-text">
     <h2 class="end-text">I'm always
-        <br>interested in
-        <br>hearing about new projects, so
-        <br>if you'd like to
-        <br>chat please get
-        <br>in touch.</h2>
+        interested in
+        hearing about new projects, so
+        if you'd like to
+        chat please get
+        in touch.</h2>
 </section>
-<div class="footer">
+<!-- Form Section Start -->
+<!-- <div class="footer"> -->
 <form class="form" action="https://formspree.io/f/mdojkjgl" method="POST">
     <input class="forma" type="text" name="name" placeholder="Full name" maxlength="30" required> 
     <input class="forma" type="email" name="email" placeholder="Email address" required> 
     <textarea class="f-message " name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-  <!-- your other form fields go here -->
     <button class="f-button" type="submit">Get in touch</button>
 </form>
-<ul class="social-media footer-bg">
-  <li><a href="#"><img src="./Images/social-media-icons/twitter.svg" alt="Link to Twitter"></a>
-  </li>
-  <li><a href="#"><img src="./Images/social-media-icons/Linkedin.svg" alt="Link to Linkedin"></a>
-  </li>
-  <li><a href="#"><img src="./Images/social-media-icons/medium.svg" alt="Link to Medium"></a>
-  </li>
-  <li><a href="#"><img src="./Images/social-media-icons/github.svg" alt="Link to Github"></a>
-  </li><li><a href="#"><img src="./Images/social-media-icons/angellist.svg" alt="Link to Angellist"></a>
-  </li>
-  </ul>
-  
 </div>
+</div>
+<div class="end-social-media">
+  <ul class="social-media footer-bg">
+    <li><a href="#"><img src="./Images/social-media-icons/twitter.svg" alt="Link to Twitter"></a>
+    </li>
+    <li><a href="#"><img src="./Images/social-media-icons/Linkedin.svg" alt="Link to Linkedin"></a>
+    </li>
+    <li><a href="#"><img src="./Images/social-media-icons/medium.svg" alt="Link to Medium"></a>
+    </li>
+    <li><a href="#"><img src="./Images/social-media-icons/github.svg" alt="Link to Github"></a>
+    </li><li><a href="#"><img src="./Images/social-media-icons/angellist.svg" alt="Link to Angellist"></a>
+    </li>
+    </ul>
+</div>
+
 <h3 class="email">myemailhere@email.com</h3>
 <div class="end">
   <img class="end-line" src="./Images/end-line.svg" alt=" Black line">

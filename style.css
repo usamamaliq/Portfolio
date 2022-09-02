@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
   /* position: relative; */
   background: #fff;
   margin: auto;
   border: auto;
   font-family: "Inter", sans-serif !important;
-  display: flex;
-  flex-direction: column;
+  font-style: normal;
 }
 
 .bg {
@@ -14,6 +15,7 @@ body {
   background-image: url("./Images/background/bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0 80px;
 }
 
 h1 {
@@ -34,7 +36,7 @@ h1 {
 }
 
 .down {
-  color: #089744;
+  color: #36b37f;
   margin-top: 0;
 }
 
@@ -84,10 +86,14 @@ a:active {
 .social-media {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  align-items: flex-end;
   list-style: none;
-  padding-left: 102.42px;
-  padding-right: 102.42px;
+  padding-left: 0;
+}
+
+.social-media li {
+  padding: 10px;
+  padding-top: 0;
 }
 
 .down-btn {
@@ -100,10 +106,12 @@ a:active {
 
 .recent-work {
   display: grid;
-  grid-template-rows: 97px 4px 474px 474px 474px 474px 474px;
+  grid-template-rows: 97px 4px 474px 474px 474px 474px 474px 474px;
   justify-content: center;
   place-items: center;
   row-gap: 24px;
+  min-width: 327px;
+  height: auto;
 }
 
 .recent-work-title {
@@ -142,11 +150,16 @@ a:active {
   grid-row: 7/8;
 }
 
+.w6 {
+  grid-row: 8/9;
+}
+
 .work-1-container {
   display: flex;
   flex-direction: column;
-  width: 327px;
-  height: 474px;
+  width: auto;
+  min-width: 200px;
+  height: auto;
   border: 1px solid #d0d9d4;
   background: #ebf0ee;
   border-radius: 8px;
@@ -154,7 +167,7 @@ a:active {
 }
 
 .project-image {
-  width: 100%;
+  width: auto;
   height: 252px;
   justify-content: flex-start;
 }
@@ -207,7 +220,6 @@ a:active {
   text-align: center;
   padding: 12px;
   gap: 10px;
-  width: 122px;
   height: 48px;
   bottom: 8px;
   background: #36b37f;
@@ -229,9 +241,11 @@ a:active {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url("./Images/about-me-mobile.svg");
+  background-image: url("./Images/about-me-left-bottom.svg"), url(./Images/about-me-right-top.svg);
+  background-position: left bottom, right top;
   background-repeat: no-repeat;
   margin-top: 64px;
+  margin-bottom: 50px;
 }
 
 .about-heading {
@@ -271,7 +285,7 @@ a:active {
   border-radius: 4px;
   width: 159px;
   height: 48px;
-  margin-bottom: 59px;
+  margin-bottom: 0;
 }
 
 .resume-button:hover {
@@ -300,7 +314,6 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .placard-title {
@@ -427,4 +440,237 @@ a:active {
   align-items: center;
   align-content: flex-end;
   margin-bottom: 10px;
+}
+
+/* Desktop Version Starts from here */
+@media only screen and (min-width: 768px) {
+  body {
+    background: #fff;
+    margin: auto;
+    border: auto;
+    font-family: "Inter", sans-serif !important;
+    font-style: normal;
+  }
+
+  .headline {
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg {
+    background-image: url("./Images/header-ilustration-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  header {
+    display: none !important;
+  }
+
+  .desktop-menu {
+    margin: 0;
+    padding-left: 0;
+    border: 0;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    list-style: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #344563;
+    padding-left: 0;
+  }
+
+  .menu-item {
+    padding: 10px 12px 10px 12px;
+    margin-left: 0;
+  }
+
+  .up {
+    margin-top: 130px;
+  }
+
+  .down {
+    margin-bottom: 0;
+  }
+
+  .intro {
+    width: 800px;
+    height: 96px;
+    margin-top: 24px;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+
+  .down-btn {
+    margin-top: 84px;
+    margin-bottom: 392px;
+  }
+
+  .recent-work-title {
+    display: none !important;
+  }
+
+  .section-2-green-title-line {
+    display: none !important;
+  }
+
+  .recent-work {
+    display: grid;
+    grid-template-rows: auto 455px 455px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    place-items: center;
+    row-gap: 42px;
+    column-gap: 18px;
+    margin-top: 70px;
+  }
+
+  .recent-work-title-desktop {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    margin-bottom: 0%;
+    grid-row: 1/2;
+    grid-column: 1/4;
+  }
+
+  .w1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+
+  .w2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+
+  .w3 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+
+  .w4 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .w5 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+
+  .w6 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+  }
+
+  .about-me {
+    background-image: url("./Images/illustration-about-me-2-desktop.svg"), url(./Images/illustration-about\ me-1-desktop.svg);
+    background-position: left bottom, right top;
+    background-repeat: no-repeat;
+  }
+
+  .about-me-para {
+    width: 920px;
+    height: 96px;
+    text-align: center;
+  }
+
+  .resume-button {
+    margin-bottom: 0;
+  }
+
+  .about-title {
+    margin-top: 65px;
+  }
+
+  .placard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 52px;
+    margin-left: 0;
+  }
+
+  .placard-about {
+    margin: 12px;
+  }
+
+  .footer-desktop {
+    display: grid;
+    grid-template-columns: 510px 510px;
+    margin: 75px 135px 200px 135px;
+    justify-content: center;
+  }
+
+  .background-images-footer {
+    background-image: url(./Images/footer-left-end.svg), url(./Images/footer-right-end.svg);
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .end-social-media {
+    border-top: 1px solid #dfe1e6;
+  }
+
+  .end-text {
+    grid-column: 1/2;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 0;
+  }
+
+  .en-text {
+    width: 510px;
+    height: 430px;
+    margin-top: 55px;
+    background-image: url(./Images/footer-below-text.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .form {
+    grid-column: 2/3;
+    align-items: flex-start;
+  }
+
+  .forma {
+    width: 500px;
+  }
+
+  .f-message {
+    width: 500px;
+  }
+
+  .email {
+    display: none !important;
+  }
+
+  .end {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .desktop-menu {
+    display: none !important;
+  }
+
+  .recent-work-title-desktop {
+    display: none !important;
+  }
 }

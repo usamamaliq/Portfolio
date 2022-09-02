@@ -231,9 +231,6 @@ a:active {
 
 .project-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-.project-button:hover {
   font-size: 24px;
 }
 
@@ -505,7 +502,6 @@ a:active {
     margin-top: 130px;
   }
 
-
   .down {
     margin-bottom: 0;
   }
@@ -604,7 +600,6 @@ a:active {
     width: 170px;
     height: 65px;
     background-color: #091e42;
-    
   }
 
   .about-title {
@@ -618,22 +613,25 @@ a:active {
     margin-top: 52px;
     margin-left: 0;
   }
+
   .click-text {
     color: blue;
     font-size: 32px;
-     animation: 3s infinite alternate slidein;
-  }
-  @keyframes slidein {
-  from {
-    margin-left:100%;
-    width:300%
+    animation: 3s infinite alternate slidein;
   }
 
-  to {
-    margin-left:0%;
-    width:100%;
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
-  
+
   .placard-about {
     margin: 12px;
   }

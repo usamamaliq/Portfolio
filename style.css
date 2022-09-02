@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
   /* position: relative; */
   background: #fff;
@@ -108,6 +110,8 @@ a:active {
   justify-content: center;
   place-items: center;
   row-gap: 24px;
+  min-width: 327px;
+  height: auto;
 }
 
 .recent-work-title {
@@ -153,8 +157,9 @@ a:active {
 .work-1-container {
   display: flex;
   flex-direction: column;
-  width: 327px;
-  height: 474px;
+  width: auto;
+  min-width: 200px;
+  height: auto;
   border: 1px solid #d0d9d4;
   background: #ebf0ee;
   border-radius: 8px;
@@ -162,7 +167,7 @@ a:active {
 }
 
 .project-image {
-  width: 100%;
+  width: auto;
   height: 252px;
   justify-content: flex-start;
 }
@@ -215,7 +220,6 @@ a:active {
   text-align: center;
   padding: 12px;
   gap: 10px;
-  width: 122px;
   height: 48px;
   bottom: 8px;
   background: #36b37f;

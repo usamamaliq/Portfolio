@@ -591,6 +591,14 @@ a:active {
 
   .resume-button {
     margin-bottom: 0;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .resume-button:hover {
+    width: 170px;
+    height: 65px;
+    background-color: #091e42;
+    
   }
 
   .about-title {

@@ -505,6 +505,7 @@ a:active {
     margin-top: 130px;
   }
 
+
   .down {
     margin-bottom: 0;
   }
@@ -617,7 +618,22 @@ a:active {
     margin-top: 52px;
     margin-left: 0;
   }
+  .click-text {
+    color: blue;
+    font-size: 32px;
+     animation: 3s infinite alternate slidein;
+  }
+  @keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
 
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+  
   .placard-about {
     margin: 12px;
   }

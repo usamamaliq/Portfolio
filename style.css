@@ -614,12 +614,6 @@ a:active {
     margin-left: 0;
   }
 
-  .click-text {
-    color: blue;
-    font-size: 32px;
-    animation: 3s infinite alternate slidein;
-  }
-
   @keyframes slidein {
     from {
       margin-left: 100%;

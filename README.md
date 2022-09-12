@@ -2,11 +2,11 @@
 
 # Portfolio
 
-> In this project Mobile Version and Desktop version has been created for Figma template 3 of portfolio project . Main pages were made for both these projects
+> In this project Mobile Version of hamburger menu implemented which toggles between other menu options. For this project the Figma template 3 has been used.
 
 ## Built With
 
-- HTML & CSS
+- HTML, CSS & JS
 
 ## Live Demo
 
@@ -15,14 +15,14 @@
 
 ## Getting Started
 
-**A week 2 project of mobile version and desktop version of Figma template 3 for portfolio project.
+**A week 4 project of mobile version and desktop version of Figma template 3 for portfolio project.
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-HTML & CSS
+HTML, CSS & JS
 
 ### Setup
 
@@ -73,5 +73,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./License.md) licensed.
-
-

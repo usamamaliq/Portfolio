@@ -8,20 +8,23 @@
   <title>Portfolio</title>
 </head>
 <body>
-<section class="bg">
+<section class="bg" id="Protfolio">
   <header class="mobile-menu">
     <a href="#" class="logo">Welcome</a>
       <Nav id="menu">
       <img src="./Images/icon-menu.png" alt="Menu Icon">
       </Nav>
   </header>
-  <nav class="desktop-menu">
+  <div class="desktop-menu">
+    <div class="closeBtn-container">
+    <img class="closeBtn" src="./Images/Icon-close.svg" alt="close menu button">
+    </div>
     <ul class="menu">
-      <li class="menu-item"><a href="#">Portfolio</a></li>
-      <li class="menu-item"><a href="#">About</a></li>
-      <li class="menu-item"><a href="#">Contact</a></li>
+      <li class="menu-item"><a href="#Protfolio">Portfolio</a></li>
+      <li class="menu-item"><a href="#About">About</a></li>
+      <li class="menu-item"><a href="#Contact">Contact</a></li>
     </ul>
-  </nav>
+  </div>
   <div class="headline">
   <h1 class="hero up">Hey there. I’m Usama</h1>
   <h1 class="hero down">I'm a software developer</h1>
@@ -155,7 +158,7 @@
 
 </section>
 <!-- About me section start -->
-<section class="about-me">
+<section class="about-me" id="About">
     <div class="about-title">
         <h2 class="about-heading">About me</h2>
     </div>
@@ -216,7 +219,7 @@
 </section>
 <!-- Form Section Start -->
 <!-- <div class="footer"> -->
-<form class="form" action="https://formspree.io/f/mdojkjgl" method="POST">
+<form class="form" action="https://formspree.io/f/mdojkjgl" method="POST" id="Contact">
     <input class="forma" type="text" name="name" placeholder="Full name" maxlength="30" required> 
     <input class="forma" type="email" name="email" placeholder="Email address" required> 
     <textarea class="f-message " name="message" maxlength="500" placeholder="Enter text here" required></textarea>
@@ -242,5 +245,6 @@
 <div class="end">
   <img class="end-line" src="./Images/end-line.svg" alt=" Black line">
 </div>
+<script src="menu.js"></script>
 </body>
 </html>

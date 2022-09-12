@@ -15,7 +15,7 @@ body {
   background-image: url("./Images/background/bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 80px;
+  background-position: 0 60px;
 }
 
 h1 {
@@ -68,19 +68,46 @@ a:active {
   cursor: pointer;
 }
 
-.desktop-menu {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(247, 247, 249);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  padding: 28px;
-  transform: translateX(100%);
-  transition: all 0.25s ease-in-out;
+/* @media only screen and (max-width: 767px) {
+  .desktop-menu {
+    display: none !important;
+  }
+
+  .recent-work-title-desktop {
+    display: none !important;
+  }
+} */
+@media only screen and (max-width: 767px) {
+  .recent-work-title-desktop {
+    display: none !important;
+  }
+
+  .desktop-menu {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(247, 247, 249);
+    color: #3a4a42;
+    position: fixed;
+    z-index: 999;
+    padding: 28px;
+    transform: translateX(100%);
+    transition: all 0.25s ease-in-out;
+  }
+
+  .closeBtn-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .closeBtn {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
 }
 
 .menu {
@@ -482,6 +509,10 @@ a:active {
     border: auto;
     font-family: "Inter", sans-serif !important;
     font-style: normal;
+  }
+
+  .closeBtn {
+    display: none;
   }
 
   .headline {

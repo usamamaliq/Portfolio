@@ -12,6 +12,9 @@
 
 [Portfolio](https://usamamaliq.github.io/Portfolio/)
 
+##Screenshot of project
+
+![screencapture-127-0-0-1-5502-2022-09-13-02_18_16](https://user-images.githubusercontent.com/101483956/189761088-f0275640-2c40-408e-bbc7-1be2252574c7.png)
 
 ## Getting Started
 

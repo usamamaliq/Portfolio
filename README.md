@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> In this project Mobile Version of hamburger menu implemented which toggles between other menu options. For this project the Figma template 3 has been used.
+> In this project popup window for project section has been implemented and project cards are made dynamically through JavaScript.For this project the Figma template 3 has been used.
 
 ## Built With
 

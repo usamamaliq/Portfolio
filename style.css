@@ -68,15 +68,6 @@ a:active {
   cursor: pointer;
 }
 
-/* @media only screen and (max-width: 767px) {
-  .desktop-menu {
-    display: none !important;
-  }
-
-  .recent-work-title-desktop {
-    display: none !important;
-  }
-} */
 @media only screen and (max-width: 767px) {
   .recent-work-title-desktop {
     display: none !important;
@@ -727,13 +718,3 @@ a:active {
     display: none !important;
   }
 }
-
-/* @media only screen and (max-width: 767px) {
-  .desktop-menu {
-    display: none !important;
-  }
-
-  .recent-work-title-desktop {
-    display: none !important;
-  }
-} */

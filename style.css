@@ -99,7 +99,6 @@ a:active {
     height: 14px;
     cursor: pointer;
   }
-
 }
 
 .menu {
@@ -720,8 +719,9 @@ a:active {
   }
 
   /* popup styling starts here */
-.popup {
-  
+
+  /* .popup {
+
   display: none;
   flex-direction: column;
   align-items: center;
@@ -732,7 +732,7 @@ a:active {
   min-height: 100vh;
   overflow: auto;
   background-color: #fff;
-} 
+}
 
 .popup-image-mbl {
   display: none;
@@ -744,9 +744,9 @@ a:active {
   left: 24px;
   top: 78px;
 }
-}
+} */
 
-/* @media only screen and (max-width: 767px) {
+  /* @media only screen and (max-width: 767px) {
   .desktop-menu {
     display: none !important;
   }
@@ -754,4 +754,6 @@ a:active {
   .recent-work-title-desktop {
     display: none !important;
   }
-} */
+}
+*/
+}

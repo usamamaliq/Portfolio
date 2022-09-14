@@ -120,11 +120,18 @@ const worksInfo = [
     popup.innerHTML=`
     <img class="popup-image-dsk" src="${worksInfo[id].imageDesktop}" alt="Project Image">
     <img class="popup-image-mbl" src="${worksInfo[id].imageMobile}" alt="Project Image">
+    <div id="title-div">
     <h2 class="popup-title">${worksInfo[id].name}</h2>
-    <ul class="popup-tags"></ul>
+    </div>
+    <ul class="tags-desktop" id="mytech">
+        ${worksInfo[id].technologiesDesktop.map((ele) => `<li>${ele}</>`)}
+        </ul>
+        <ul class="tags-mobile" id="mobile-ul">
+        ${worksInfo[id].technologiesMobile.map((ele) => `<li>${ele}</>`)}
+        </ul>
     <p class="popup-description">${worksInfo[id].projectDescription}</p>
     <button>See live<img class="button-icon" src="${worksInfo[id].liveIcon}"></button>
-    <button>See Source<img class="button-icon" src="${worksInfo[id].githubIcon}"></button>
+    <button id="btn2">See Source<img class="button-icon" src="${worksInfo[id].githubIcon}"></button>
     
     `;
   }

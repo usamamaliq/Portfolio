@@ -718,42 +718,4 @@ a:active {
     display: none !important;
   }
 
-  /* popup styling starts here */
-
-  /* .popup {
-
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  width: 600px;
-  max-width: 100%;
-  min-height: 100vh;
-  overflow: auto;
-  background-color: #fff;
-}
-
-.popup-image-mbl {
-  display: none;
-}
-
-.popup-image-dsk {
-  width: 872px;
-  height: 616px;
-  left: 24px;
-  top: 78px;
-}
-} */
-
-  /* @media only screen and (max-width: 767px) {
-  .desktop-menu {
-    display: none !important;
-  }
-
-  .recent-work-title-desktop {
-    display: none !important;
-  }
-}
-*/
 }

@@ -13,3 +13,14 @@
   background-color: rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }
+
+.popup-image-mbl {
+  display: none;
+}
+
+.popup-image-dsk {
+  width: 872px;
+  height: 616px;
+  left: 24px;
+  top: 78px;
+}

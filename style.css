@@ -492,6 +492,15 @@ a:active {
   margin-bottom: 10px;
 }
 
+.lable {
+  font-family: "Inter", sans-serif !important;
+  color: #d30505;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 /* Desktop Version Starts from here */
 @media only screen and (min-width: 768px) {
   body {

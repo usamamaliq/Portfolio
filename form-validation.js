@@ -9,4 +9,14 @@ const validEmail = (email) => {
   }
   return false;
 };
+// Checking validation after button is pressed
 
+submitBtn.addEventListener('click', (event) => {
+  const validatedEmail = document.getElementById('email').value;
+if (!validEmail(validatedEmail)) {
+  document.querySelector('.lable').innerHTML = 'Please type the email in lowercase';
+  event.preventDefault();
+}
+else {
+  document.querySelector('.lable').innerHTML = '';
+}

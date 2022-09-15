@@ -1,5 +1,4 @@
-const submitBtn = document.querySelector('.f-button')
-
+const submitBtn = document.querySelector('.f-button');
 
 // Function to check if email is valid
 
@@ -13,10 +12,10 @@ const validEmail = (email) => {
 
 submitBtn.addEventListener('click', (event) => {
   const validatedEmail = document.getElementById('email').value;
-if (!validEmail(validatedEmail)) {
-  document.querySelector('.lable').innerHTML = 'Please type the email in lowercase';
-  event.preventDefault();
-}
-else {
-  document.querySelector('.lable').innerHTML = '';
-}
+  if (!validEmail(validatedEmail)) {
+    document.querySelector('.lable').innerHTML = 'Please type the email in lowercase';
+    event.preventDefault();
+  } else {
+    document.querySelector('.lable').innerHTML = '';
+  }
+});

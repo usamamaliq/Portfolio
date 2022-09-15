@@ -130,9 +130,10 @@
 <!-- <div class="footer"> -->
 <form class="form" action="https://formspree.io/f/mdojkjgl" method="POST" id="Contact">
     <input class="forma" type="text" name="name" placeholder="Full name" maxlength="30" required> 
-    <input class="forma" type="email" name="email" placeholder="Email address" required> 
+    <input id="email" class="forma" type="email" name="email" placeholder="Email address" required> 
     <textarea class="f-message " name="message" maxlength="500" placeholder="Enter text here" required></textarea>
     <button class="f-button" type="submit">Get in touch</button>
+    <label for="email" class="lable"></label>
 </form>
 </div>
 </div>
@@ -157,5 +158,6 @@
 
 <script src="menu.js"></script>
 <script src="popup.js"></script>
+<script src="form-validation.js"></script>
 </body>
 </html>

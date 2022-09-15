@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> In this project popup window for project section has been implemented and project cards are made dynamically through JavaScript.For this project the Figma template 3 has been used.
+> In this project form validation has been implemented by JavaScript. Email validation is checked to be case sensitive and should be lowercase.For this project the Figma template 3 has been used.
 
 ## Built With
 
